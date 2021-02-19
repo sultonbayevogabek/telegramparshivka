@@ -397,4 +397,10 @@ document.addEventListener('DOMContentLoaded', () => {
          typingField.focus();
       })
    })
+
+   userInfoDarkLayer.addEventListener('click', e => {
+      if (e.target !== userInfoModal) {
+         userInfoDarkLayer.classList.add('hide');
+      }
+   })
 })
