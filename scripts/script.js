@@ -179,6 +179,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       chattingContactName.textContent = selectedChat.contactName;
+      chattingContactName.dataset.id = String(id);
 
       messagesList.innerHTML = `
          <li class="message received">
@@ -213,9 +214,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
    window.addEventListener('keydown', e => {
       if (e.key === 'Escape') {
-         endVideoCall();
+         userInfoDarkLayer.classList.add('hide');
       }
    })
+
 
    darkLayer.addEventListener('click', e => {
       if (e.target === darkLayer) {
@@ -353,5 +355,46 @@ document.addEventListener('DOMContentLoaded', () => {
       e.preventDefault();
 
       $('.login').classList.add('hide');
+   })
+
+   //user info
+
+   const userInfoDarkLayer = $('.dark-layer-user-info'),
+      userInfoModal = $('.user-info');
+   let sendMessageBtn;
+   chattingContactName.addEventListener('click', e => {
+      const userId = e.target.getAttribute('data-id');
+      const {contactName, phoneNumber, bio, userName, avatarURL} = data[Number(userId) - 1];
+      userInfoDarkLayer.classList.remove('hide');
+      userInfoModal.innerHTML = `
+         <div class="user-info__header">
+            <img src=${avatarURL} alt="" width="100" height="100">
+            <h3>${contactName}</h3>
+         </div>
+         <div class="user-info__main">
+            <span class="i">i</span>
+            <div class="user-info__part">
+               <div>${phoneNumber}</div>
+               <div>Mobile</div>
+            </div>
+            <div class="user-info__part">
+               <div>${bio}</div>
+               <div>Bio</div>
+            </div>
+            <div class="user-info__part">
+               <div>${userName}</div>
+               <div>Username</div>
+            </div>
+         </div>
+         <div class="user-info__footer">
+               SEND MESSAGE
+         </div>
+      `
+      sendMessageBtn = $('.user-info__footer');
+
+      sendMessageBtn.addEventListener('click', () => {
+         userInfoDarkLayer.classList.add('hide');
+         typingField.focus();
+      })
    })
 })

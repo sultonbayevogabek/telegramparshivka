@@ -23,7 +23,10 @@ const data = [
                messageText: 'Hello Russia'
             }
          ]
-      }
+      },
+      phoneNumber: '+998 97 2562311',
+      userName: '@putin',
+      bio: 'Nimagadir erishmoqchi bo`lsang, hozirdan harakatni boshla!'
 
    },
    {
@@ -46,7 +49,10 @@ const data = [
                messageText: 'Do you know Uzbekistan?'
             }
          ]
-      }
+      },
+      phoneNumber: '+998 97 2062011',
+      userName: '@baha',
+      bio: 'Men hayotdan zerikdim... :('
 
    },
    {
@@ -69,7 +75,10 @@ const data = [
                messageText: 'Heey kak dela?'
             }
          ]
-      }
+      },
+      phoneNumber: '+998 91 3564316',
+      userName: '@asad_boyvachcha',
+      bio: 'Kallang ishlamasa gavdang qiynaladi ))'
    },
    {
       contactId: 4,
@@ -91,7 +100,10 @@ const data = [
                messageText: 'Ok. Where are my socks?'
             }
          ]
-      }
+      },
+      phoneNumber: '+998 99 2565311',
+      userName: '@ahadpolvonsadullayevich',
+      bio: 'Senga o`xshaganlardan or qilamanda...'
    },
    {
       contactId: 5,
@@ -113,7 +125,10 @@ const data = [
                messageText: 'Hi, what\'up? Are you free today? Let\' go to the cinema!'
             }
          ]
-      }
+      },
+      phoneNumber: '+998 33 963 97 73',
+      userName: '@kim_alina',
+      bio: 'Ilm olish azobi - o`tkinchi, ilmsizlik azobi - umrbod'
    },
    {
       contactId: 6,
@@ -135,7 +150,10 @@ const data = [
                messageText: 'Discover the best of the week catch up with the best ...'
             }
          ]
-      }
+      },
+      phoneNumber: '+998 88 2562311',
+      userName: '@behancegul',
+      bio: 'Hayot bunchalar berahmsan!'
    },
    {
       contactId: 7,
@@ -157,7 +175,10 @@ const data = [
                messageText: 'Salom. Asal qalaysiz ishlariz yaxshimi?'
             }
          ]
-      }
+      },
+      phoneNumber: '+998 97 4562411',
+      userName: '@asalxon_medik',
+      bio: 'Medik bo`lish hammagayammas! Auf ))'
    },
    {
       contactId: 8,
@@ -179,7 +200,10 @@ const data = [
                messageText: 'Salom. Yaxshi rahmat, o`ziz tuzukmisiz?'
             }
          ]
-      }
+      },
+      phoneNumber: '+998 90 3332313',
+      userName: '@komilaxonim',
+      bio: 'Ona sizga jannat qarzim bor!'
    },
    {
       contactId: 9,
@@ -201,7 +225,10 @@ const data = [
                messageText: 'Ova yuribmiz jo`ra na disan?'
             }
          ]
-      }
+      },
+      phoneNumber: '+998 99 5046789',
+      userName: '@sulaymonrozimov',
+      bio: 'Aqling bo`lsa erta uylanma. Auf'
    },
    {
       contactId: 10,
@@ -223,7 +250,10 @@ const data = [
                messageText: 'Salommalakim. Buva nichiksiz? Man yaxshi oydin yuribman! O`zingizni sog`liqlariz yaxshimi?'
             }
          ]
-      }
+      },
+      phoneNumber: '+998 97 4412311',
+      userName: '@sultonboy_ro`zimov',
+      bio: '...'
    },
    {
       contactId: 11,
@@ -245,7 +275,10 @@ const data = [
                messageText: 'Yaxshi nerlari aylanamiz indi?'
             }
          ]
-      }
+      },
+      phoneNumber: '+998 97 2562311',
+      userName: '@jimijimihajahaja',
+      bio: 'Jimi jimi jimi. Haja haja haja prikolna daaa!?'
    }
 ]
 

@@ -98,8 +98,13 @@
             </audio>
          </div>
       </div>
+      <div class="dark-layer-user-info hide">
+         <div class="user-info">
+
+         </div>
+      </div>
    </div>
-   <div class="login">
+   <div class="login hide">
       <div class="login__form">
          <h1>Your phone number</h1>
          <p>Please confirm your country code and enter your mobile phone number</p>
@@ -111,7 +116,7 @@
             </div>
             <div class="phone">
                <div class="phone__code"></div>
-               <input class="phone__number" type="number" required maxlength="9" placeholder="-- -------" max="999999999">
+               <input class="phone__number" type="number" required maxlength="9" min="100000000" placeholder="-- -------" max="999999999">
             </div>
             <button class="login__btn">Next</button>
          </form>

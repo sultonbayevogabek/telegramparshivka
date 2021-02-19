@@ -242,6 +242,7 @@ input:focus, textarea:focus, button:focus {
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
+  cursor: pointer;
 }
 .chatting-contact__name::before {
   position: absolute;
@@ -645,6 +646,80 @@ input[type=number] {
   color: #fff;
   border: none;
   font-size: 16px;
+}
+
+.dark-layer-user-info {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.user-info {
+  width: 50%;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.user-info__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 3px solid #CFD1D3;
+}
+.user-info__header img {
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.user-info__header h3 {
+  font-size: 24px;
+}
+
+.user-info__main {
+  position: relative;
+  padding-left: 60px;
+  border-bottom: 3px solid #CFD1D3;
+}
+
+.i {
+  position: absolute;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #707070;
+  border-radius: 50%;
+  font-weight: 700;
+}
+
+.user-info__part {
+  margin-bottom: 40px;
+}
+.user-info__part div:first-child {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.user-info__part div:last-child {
+  font-size: 16px;
+  color: #CFD1D3;
+}
+
+.user-info__footer {
+  padding-top: 30px;
+  padding-left: 60px;
+  color: #49A1EF;
+  cursor: pointer;
+  font-weight: 700;
 }
 
 .hide {
