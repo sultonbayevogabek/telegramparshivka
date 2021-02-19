@@ -680,6 +680,7 @@ input[type=number] {
 }
 .user-info__header h3 {
   font-size: 24px;
+  font-weight: 500;
 }
 
 .user-info__main {
@@ -707,7 +708,7 @@ input[type=number] {
 .user-info__part div:first-child {
   margin-bottom: 10px;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 400;
 }
 .user-info__part div:last-child {
   font-size: 15px;
