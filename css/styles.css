@@ -503,5 +503,16 @@ audio {
     box-shadow: 0 0 0 8px rgba(102, 102, 102, 0.6);
   }
 }
+.login {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /*# sourceMappingURL=styles.css.map */
