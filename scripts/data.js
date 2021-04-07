@@ -302,7 +302,7 @@ const data = [
          ]
       },
       phoneNumber: '+998 99 1977529',
-      userName: '@munnaboy',
+      userName: '@munisa_bekturdiyeva',
       bio: '...'
    }
 ]
