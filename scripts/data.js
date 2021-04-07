@@ -279,6 +279,31 @@ const data = [
       phoneNumber: '+998 97 2562311',
       userName: '@jimijimihajahaja',
       bio: 'Jimi jimi jimi. Haja haja haja prikolna daaa!?'
+   },
+   {
+      contactId: 12,
+      contactName: 'Munisa',
+      isOnline: true,
+      avatarURL: 'img/contacts/munisa.jpg',
+      chatMessages: {
+         received: [
+            {
+               messageId: randomId(),
+               messageTime: '10:31',
+               messageText: 'Ёзманг дасам яхши ёзимман дамисиз сира'
+            }
+         ],
+         sent: [
+            {
+               messageId: randomId(),
+               messageTime: '10:35',
+               messageText: 'Axi sani baribarsala nichik bo`ladi boshqaga'
+            }
+         ]
+      },
+      phoneNumber: '+998 99 1977529',
+      userName: '@munnaboy',
+      bio: '...'
    }
 ]
 
